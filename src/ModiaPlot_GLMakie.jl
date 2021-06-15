@@ -7,8 +7,8 @@ module ModiaPlot_GLMakie
 const headingSize = 10
 
 const path = dirname(dirname(@__FILE__))   # Absolute path of package directory
-const Version = "0.1.0"
-const Date = "2021-06-09"
+const Version = "0.2.0"
+const Date = "2021-06-15"
 
 println("Importing ModiaPlot_GLMakie Version $Version ($Date) - this takes some time due to GLMakie import")
 
@@ -19,12 +19,12 @@ import MonteCarloMeasurements
 using  Unitful
 
 using  GLMakie
-include("$(ModiaResult.path)/src_plot/plot.jl")
+include("$(ModiaResult.path)/src/plot.jl")
 
 const showFigureStringInDiagram = true
 const callDisplayFunction = true
 const reusePossible = true
-include("$(ModiaResult.path)/src_plot/makie.jl")
+include("$(ModiaResult.path)/src/makie.jl")
 
 
 function showFigure(figureNumber::Int)::Nothing
