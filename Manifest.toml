@@ -681,9 +681,9 @@ version = "1.1.3"
 
 [[ModiaResult]]
 deps = ["DataFrames", "Measurements", "MonteCarloMeasurements", "OrderedCollections", "Pkg", "Tables", "Unitful"]
-git-tree-sha1 = "8d2f871428f4d2a0f9a9cc5b0d9df8565956309d"
+git-tree-sha1 = "bd8f718cdfd2bcd43d36f91aa12af93798177bb8"
 uuid = "16a87621-1533-42f6-8e19-4a825980cec2"
-version = "0.3.6"
+version = "0.3.7"
 
 [[MonteCarloMeasurements]]
 deps = ["Distributed", "Distributions", "LinearAlgebra", "MacroTools", "Random", "RecipesBase", "Requires", "SLEEFPirates", "StaticArrays", "Statistics", "StatsBase", "Test"]
@@ -1025,9 +1025,9 @@ version = "0.33.13"
 
 [[StatsFuns]]
 deps = ["ChainRulesCore", "InverseFunctions", "IrrationalConstants", "LogExpFunctions", "Reexport", "Rmath", "SpecialFunctions"]
-git-tree-sha1 = "385ab64e64e79f0cd7cfcf897169b91ebbb2d6c8"
+git-tree-sha1 = "bedb3e17cc1d94ce0e6e66d3afa47157978ba404"
 uuid = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
-version = "0.9.13"
+version = "0.9.14"
 
 [[StructArrays]]
 deps = ["Adapt", "DataAPI", "StaticArrays", "Tables"]
