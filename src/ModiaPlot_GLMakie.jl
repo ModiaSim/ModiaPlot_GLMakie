@@ -24,6 +24,8 @@ include("$(ModiaResult.path)/src/plot.jl")
 const showFigureStringInDiagram = true
 const callDisplayFunction = true
 const reusePossible = true
+
+const Makie_Point2f = isdefined(GLMakie, :Point2f) ? Point2f : Point2f0    
 include("$(ModiaResult.path)/src/makie.jl")
 
 
