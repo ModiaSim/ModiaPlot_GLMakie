@@ -7,8 +7,8 @@ module ModiaPlot_GLMakie
 const headingSize = 10
 
 const path = dirname(dirname(@__FILE__))   # Absolute path of package directory
-const Version = "0.3.4"
-const Date = "2022-02-02"
+const Version = "0.4.0"
+const Date = "2022-02-03"
 
 println("Importing ModiaPlot_GLMakie Version $Version ($Date) - this takes some time due to GLMakie import")
 
